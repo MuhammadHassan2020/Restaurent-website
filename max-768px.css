@@ -1,0 +1,121 @@
+/* HAMBURGER MENU  */
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    html{
+      font-size: 60%;
+    }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      
+      width: 100%;
+      background-color:#282819;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      z-index: 1;
+    }
+    .nav2_connect h4 {
+        text-align: center;
+    }
+    .nav-links.active {
+      display: flex;
+      position: absolute;
+      top: 50px;
+      
+
+  }
+  .nav-links li a {
+    border-bottom: 1px solid white;
+  }
+    .hamburger-menu {
+      display: block;
+      float: right;
+      
+    }
+    .nav2_main {
+   
+      height: 50px;
+      position: fixed;
+      top: 0px;
+      left: 0;
+     padding: 0 5px;
+      background-color: #10100a;
+      width: 100%;
+      z-index: 10;
+    }
+    .nav2_connect {
+      padding: 8px 19px;
+      font-size: 1rem;
+      width: 76px;
+  }
+  .nav2_logo img{
+    width: 80%;
+  }
+    .sec2_text h1 {
+      font-size: 2.5rem !important;
+      padding: 0;
+     
+  }
+  .sec2_text {
+    max-width: 85%;
+}
+.sec2_button h4{
+    width: 180px;
+}
+  .sec2 {
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .sec2_left,
+  .sec2_right{
+    display: none;
+  }
+  .sec3_menu ul{
+    flex-wrap: wrap;
+  }
+  .sec3_card {
+    width: 210px;
+  }
+  .card {
+    gap: 18px;
+  }
+  .sec3_card p {
+    font-size: 1rem !important;
+  }
+  .sec3_heart h2, .sec3_heart a img, .sec3_card h4, .sec3_card p {
+    padding: 0px 8px;
+  }
+  .sec3_heart h2 {
+    font-size: 1.3rem;
+  }
+  
+  .foot_logo p {
+    font-size: 0.9rem !important;
+  }
+  .foot_main2 li {
+    font-size: 1rem;
+  }
+  .menu_catagory ul li{
+    width: 80px;
+  }
+  .menu_catagory ul {
+    margin: 20px 0px;
+   
+  }
+  .foot_main{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .foot_logo {
+    width: 53%; 
+  }
+ 
+  
+  
+ 
+  
+  }
+  

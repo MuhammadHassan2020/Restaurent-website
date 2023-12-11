@@ -1,0 +1,49 @@
+
+/* Responsive styles */
+@media screen and (max-width: 481px) {
+    html{
+      font-size: 60%;
+    }
+    .nav2_connect {
+        padding: 8px 3px;
+    }
+    .sec2_button h4 {
+        width: 117px;
+    }
+   
+    .sec3_card {
+        width: 143px;
+    }
+    .sec3_heart h2, .sec3_heart a img, .sec3_card h4, .sec3_card p {
+        padding: 0px 8px;
+        line-height: 14px;
+    }
+    .sec3_button h3 {
+     
+        padding: 3px 0px;
+        width: 79%;
+        margin-top: -16px;
+        border-radius: 10px;
+        margin-bottom: 9px;
+    }
+    .sec3_heart img{
+        height: 20px;
+        width: 20px;
+    }
+    .sec3_menu li {
+        padding: 10px 7px;
+    }
+    .menu_catagory ul li {
+        width: 62px;
+    }
+    .menu_catagory ul:nth-child(1) {
+        width: 48%;
+    }
+    .menu_catagory {
+        width: 152px;
+    }
+    .menu_catagory ul:nth-child(2) {
+        width: 51%;
+    }
+    
+}
